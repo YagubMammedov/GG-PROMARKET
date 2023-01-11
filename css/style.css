@@ -1372,4 +1372,61 @@ body {
 }
 .sales_btn-inf {
   color: #FFFFFF;
+}
+
+.brend {
+  font-family: "Montserrat";
+  font-style: normal;
+}
+.brend-name {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+.brend-hr {
+  width: 350px;
+  color: #1061AB;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style: inset;
+  border-width: 1px;
+}
+.brend-blok {
+  height: 600px;
+  margin-top: 50px;
+}
+.brend-blok_one {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.brend-blok_one-box {
+  width: 200px;
+  height: 132px;
+  background-color: #FFFFFF;
+  padding: 57px 50px;
+}
+.brend-blok_two {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.brend-blok_two-box {
+  width: 200px;
+  height: 132px;
+  background-color: #FFFFFF;
+  padding: 57px 50px;
+}
+.brend-blok_th {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.brend-blok_th-box {
+  width: 200px;
+  height: 132px;
+  background-color: #FFFFFF;
+  padding: 47px 50px;
 }/*# sourceMappingURL=style.css.map */

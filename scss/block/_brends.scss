@@ -1,0 +1,57 @@
+.brend{
+    font-family: 'Montserrat';
+    font-style: normal;
+    &-name{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    &-hr{
+        width: 350px;
+            color: #1061AB;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            border-style: inset;
+            border-width: 1px; 
+       }
+    &-blok{
+        height: 600px;
+        margin-top: 50px;
+        &_one{
+            display: flex;
+            justify-content: space-between;
+            gap: 5px;
+            &-box{
+                width: 200px;
+                height: 132px;
+                background-color: #FFFFFF;
+                padding: 57px 50px;
+            }
+        }
+        &_two{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            &-box{
+                width: 200px;
+                height: 132px;
+                background-color:#FFFFFF;
+                padding: 57px 50px;
+            }
+        }
+        &_th{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            &-box{
+                width: 200px;
+                height: 132px;
+                background-color:#FFFFFF;
+                padding: 47px 50px;
+            }
+        }
+
+    }
+}
