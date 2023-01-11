@@ -38,7 +38,18 @@ body{
     margin: 0 50px;
 }
 
+.container__sweap{
+    width: 100%;
+}
+
 .container__header{
     background: #E1EEFB;
     max-height: 370px;
+}
+
+.container__review{
+    background: #EAF4FF;
+    max-height: 880px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
