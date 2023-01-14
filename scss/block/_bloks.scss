@@ -1,0 +1,36 @@
+.block{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    font-style: normal;
+    &-img{
+        width: 450px;
+        height: 471px;
+        z-index: 1000;
+    }
+    &-inf{
+        position: relative;
+        padding: 45px;
+        color: #FFFFFF;
+        &_cap{
+            padding-bottom: 20px;
+            padding-right: 45px;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 36px;
+            color: #000000;
+        }
+        &_smll{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 30px;
+            background: #3BB9B8;
+            width: 900px;
+            position: absolute;
+            right: 20px;
+            padding-top: 50px;
+            padding-right: 50px;
+            padding-left: 330px;
+        }
+    }
+}

@@ -49,8 +49,24 @@ function sw3() {
   });
 }
 
+function sw4() {
+  const swiper = new Swiper('.swiper', {
+    
+    loop: true,
 
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  
+    navigation: {
+      nextEl: '.article-box__img-next',
+      prevEl: '.article-box__img-prev',
+    },   
+  });
+}
 
 sw()
 sw2()
 sw3()
+sw4()
