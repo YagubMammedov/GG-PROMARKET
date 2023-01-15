@@ -1582,4 +1582,127 @@ body {
   padding-top: 50px;
   padding-right: 50px;
   padding-left: 330px;
+}
+
+.footer {
+  background: #FFFFFF;
+  margin-top: 130px;
+  padding-bottom: 50px;
+}
+.footer__navigation {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat";
+  font-style: normal;
+  padding-top: 35px;
+}
+.footer__navigation--items {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 40px;
+  color: #2B7BC6;
+}
+.footer__navigation--list {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 14px;
+  color: #2B7BC6;
+  line-height: 40px;
+}
+.footer__navigation--contact {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 40px;
+}
+.footer__navigation--contact_number {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 40px;
+}
+.footer__navigation--contact_btn {
+  color: #1061AB;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  border: 1px solid #1061AB;
+  border-radius: 4px;
+  padding: 6px 13px;
+  cursor: pointer;
+}
+.footer__navigation--adress {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 40px;
+}
+.footer__navigation--adress_gmail {
+  color: #1061AB;
+}
+.footer__contact {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.footer__contact-one {
+  display: flex;
+  flex-direction: column;
+}
+.footer__contact-one-logo_main {
+  color: #004C93;
+  font-size: 45px;
+}
+.footer__contact-one-logo_name {
+  color: #FBFAF9;
+  background: #EA1649;
+  padding: 5px 5px;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  position: relative;
+  bottom: 8px;
+}
+.footer__contact-one-date_inf {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #99A3A9;
+}
+.footer__contact-adress {
+  display: flex;
+  gap: 33px;
+  position: absolute;
+  left: 680px;
+  top: 5px;
+}
+.footer__contact-adress img {
+  cursor: pointer;
+  height: 20px;
+}
+.footer__contact-three {
+  position: absolute;
+  left: 1000px;
+  bottom: 5px;
+}
+
+.cellars {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #99A3A9;
+  padding-top: 41px;
+  padding-bottom: 49px;
+}
+.cellars_color {
+  color: #1061AB;
 }/*# sourceMappingURL=style.css.map */
