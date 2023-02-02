@@ -1,0 +1,795 @@
+@media screen and (max-width: 1200px){
+    .header{
+        &-menu{
+            &-logo{
+                &__gg{
+                    font-size: 35px ;
+                }
+                &__img{
+                    font-size: 18px;
+                    position: relative;
+                    top: 2px;
+                }
+            }
+            // &-loca{
+            //     position: relative;
+            //     left: 50px;
+            // }
+            &-location{
+                position: relative;
+                left: -50px;
+            }
+            &-number{
+                &__one{
+                    color: black;
+                    font-size: 16px;
+                    position: relative;
+                    right: 10px;
+                } 
+                &__symbol{
+                    display: none;
+                }
+                &__two{
+                    display: none;
+                } 
+            }
+            &-navbar{
+                font-weight: 500;
+                font-size: 14px;
+            }
+        }
+        &-btns{
+            position: relative;
+            &__navbar{
+                &-one{
+                    width: 210px;
+                    font-size: 10px;
+                    padding-bottom: 3px;
+                }
+                &-pic{
+                    font-size: 15px;
+                }
+                &-two{
+                width: 100px;
+                font-size: 9px; 
+             }
+                &-three{
+                    width: 100px;
+                    font-size: 9px; 
+                }
+            }
+            &__form{
+                width: 100%;
+            }
+            &__icons{
+                &-one{
+                    &-person{
+                        width: 20px;
+                        height: 20px; 
+                        position: relative;
+                        top: 7px; 
+                    }
+                    &-pic{
+                        &-circle{
+                        display: none;
+                        }
+                        &-heart{
+                            width: 20px;
+                            height: 20px;
+                            position: relative;
+                            top: 7px;
+                        }
+                    }
+                    &-shop{
+                        &-circle{
+                            display: none;
+                        }
+                        &-basket{
+                            position: relative;
+                            top: 6px;
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+    
+    .swiper {
+        width: 1100px;
+        height: 380px;
+        position: relative;
+        right: 0;
+      
+        &-slide{
+          font-size: 18px;
+          width: 100%;
+          &__one{
+           padding-right: 180px;
+           font-size: 20px;
+         }
+        }
+
+        &-button{
+            &-next{
+                padding-right: 320px;
+                            
+             }
+        }
+
+    }
+    
+    .container{
+        &-header{
+            &-one{
+                width: 260px;
+                &__first{
+                    font-weight: 300;
+                    font-size: 20px;
+                    position: relative;
+                    right: 125px;
+                }
+                &__second{
+                    font-weight: 300;
+                    font-size: 17px;
+                    position: relative;
+                    right: 125px;
+                }
+                &__thord{
+                    font-weight: 300;
+                    font-size: 20px;
+                    position: relative;
+                    right: 125px;
+                }
+            }
+            &-two{
+                width: 260px;
+                &__first{
+                    font-weight: 300;
+                    font-size: 20px;
+                    position: relative;
+                    right: 125px;
+                }
+                &__second{
+                    font-weight: 300;
+                    font-size: 15px;
+                    position: relative;
+                    right: 125px;
+                }
+                &__thord{
+                    font-weight: 300;
+                    font-size: 20px;
+                    position: relative;
+                    right: 125px;
+                }
+            }
+        }
+    }
+
+    .home{
+        &-box{
+            margin-left: 25px;
+            &_one{
+                &-img{
+                 width: 450px;
+                }
+                }
+            &_two{
+                &-img{
+                    width: 300px;
+                    }
+                }
+            &_three{
+                &-img{
+                    width: 170px;
+                    margin-right: 105px;
+                }
+            }
+            &_five{
+                &-img{
+                    width: 170px;
+                    }
+                }
+            &_six{
+                &-img{
+                    width: 300px;
+                    margin-right: 105px;
+                }
+            }
+        }
+
+    }
+
+    .features{
+        display: none;
+    }
+
+    .review{
+        display: none;
+    }
+    
+    .brend{
+        &-blok{
+            height: 900px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            &_one{
+                display: flex;
+                flex-direction: column;
+            }
+            &_two{
+                display: flex;
+                flex-direction: column; 
+            }
+            &_th{
+                display: flex;
+                flex-direction: column; 
+            }
+        }
+    }
+
+    .article{
+        &-box{
+            display: flex;
+            justify-content: center;
+            #prevnt{
+                display: none;
+            }
+            #imgnt{
+                display: none;
+            }
+        }
+        
+    }
+
+    .block{
+        &-img{
+           &_pic{
+            width: 500px;
+            height: 471px;
+           }
+        }
+        &-inf{
+            &_cap{
+                font-size: 15px;
+            }
+            &_smll{
+                font-size: 10px;
+                // position: absolute;
+                // right: 20px;
+                width: 700px;
+                
+            }
+
+        }
+
+    }
+}
+
+@media screen and (max-width: 991px){
+    .header{
+        &-menu{
+            &-logo{
+                &__gg{
+                    font-size: 20px ;
+                }
+                &__pro{
+                    font-size: 11px;
+                    position: relative;
+                    top: 2px;
+                }
+            }
+            &-number{
+                &__one{
+                    color: black;
+                    font-size: 11px;
+                    position: relative;
+                    right: 10px;
+                } 
+ 
+            }
+            &--location{
+                display: flex;
+                gap: 20px;
+                font-size: 9px;
+            }
+            &-navbar{
+                font-weight: 500;
+                font-size: 12px;
+            }
+        }
+        &-btns{
+            position: relative;
+            &__navbar{
+                &-one{
+                    width: 190px;
+                    font-size: 10px;
+                    padding-bottom: 3px;
+                }
+                &-pic{
+                    font-size: 12px;
+                }
+                &-two{
+                width: 75px;
+                font-size: 9px;
+                padding-left: 13px;
+                }
+                &-three{
+                    width: 75px;
+                    font-size: 9px; 
+                    padding-left: 13px;
+                }
+            }
+            &__form{
+                width: 100%;      
+            }
+            &__icons{     
+                &-one{
+                    &-person{
+                        width: 20px;
+                        height: 20px; 
+                        position: relative;
+                        top: 7px; 
+                    }
+                    &-pic{
+                        &-circle{
+                        display: none;
+                        }
+                        &-heart{
+                            width: 20px;
+                            height: 20px;
+                            position: relative;
+                            top: 7px;
+                        }
+                    }
+                    &-shop{
+                        &-circle{
+                            display: none;
+                        }
+                        &-basket{
+                            position: relative;
+                            top: 6px;
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+
+    .swiper {
+        &-slide{
+            &__tow{
+                font-size: 25px;
+            }
+            &__three{
+                font-size: 20px;
+            }
+            &__btn{
+                width: 148px;
+            }
+        }
+    }
+
+    .home{
+        &-box{
+            margin-left: 0;
+            margin-right: 10px;
+            &_one{
+                &-img{
+                 width: 320px;
+                }
+                }
+            &_two{
+                &-img{
+                    width: 220px;
+                    }
+                }
+            &_three{
+                &-img{
+                    width: 150px;
+                    margin-right: 155px;
+                }
+            }
+            &_five{
+                &-img{
+                    width: 150px;
+                    }
+                }
+            &_six{
+                &-img{
+                    width: 220px;
+                    margin-right: 155px;
+                }
+            }
+        }
+    }
+
+    .container-promotion{
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    .brend{
+        &-blok{
+            height: 700px;
+            &_one{
+                &-box{
+                    width: 180px;
+                    height: 100px;
+                }
+            }
+            &_two{
+                &-box{
+                    width: 180px;
+                    height: 100px;  
+                }
+            }
+            &_th{
+                &-box{
+                    width: 180px;
+                    height: 114px;  
+                }
+            }
+        }
+    }
+    
+    .article{
+        display: none;
+        
+    }
+
+    .block{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        height: 640px;
+        &-img{        
+           &_pic{
+            width: 100%;
+            height: 471px;
+            margin-left: 140px;
+           }
+        }
+        &-inf{
+            position: relative;
+            bottom: 120px;
+            &_cap{
+                
+            }
+            &_smll{
+                padding: 20px 25px;
+                align-items: center;
+                position: relative;
+                left: 0;
+                width: 100%;
+
+            }
+        }
+    }
+
+    .footer{
+        &__navigation{
+            display: grid;
+            grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+            gap: 25px;
+            &--contact{
+                &_btn{
+                    width: 190px;
+                }
+            }
+        }
+        &__contact{
+            width: 100%;
+            &-adress{
+                position: absolute;
+                left: 300px;
+                top: 15px;
+            }
+            &-three{
+                position: absolute;
+                left: 500px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px){
+    .header{
+        &-menu{
+            &-logo{
+                &__gg{
+                    font-size: 35px;
+                }
+                &__pro{
+                    font-size: 20px;
+                }
+            }
+
+            &-number{
+                display: none;
+            }
+
+            &--location{
+                display: none;
+            }
+
+            &-navbar{
+                display: none;
+            }
+
+        }
+
+        &-btns{
+                display:flex;
+                flex-direction: column;
+                position: relative;
+                width: 100%;
+                right: 110px;
+                
+            &__navbar{
+                position: relative;
+                margin-left: 5px;
+                &-one{
+                //    position: relative;
+                }
+            }
+            &__icons{
+                position: relative;
+                bottom: 120px;
+                left: 230px;
+                width: 120px;
+                // width: 100%;
+                display: flex;
+                justify-content: space-between;
+                gap: 10px;
+                padding-left: 15px;
+            }
+
+            &__form{   
+                position: relative;
+                width: 100%; 
+                margin-left: 215px;
+                &-loops{
+                    cursor: pointer;
+                    position: absolute;
+                    right: 10px;
+                    top: 18px;
+                }
+                &-search{
+                    padding: 20px 0 20px 0;
+                    // width: 350px;
+                    // margin-left: 150px;
+    
+                }
+            }
+        }
+    }
+ 
+    .swiper {
+        position: relative;
+        bottom: 74px;
+        width: 100%;
+        height: 300px;
+        &-slide{
+            width: 550px;
+            position: relative;
+            right: 70px;
+        }
+        &-button{
+            position: relative;
+            &-next{
+                padding-right: 60px;
+            }
+        }
+    }
+
+    .container{
+            display: flex;
+            flex-direction: column;
+        &-header{
+            margin-bottom: 150px;
+            position: relative;
+            bottom: 74px;
+            &-one{
+                width: 100%;
+                &__first{
+                    padding-left: 150px;
+                }
+                &__second{
+                    padding-left: 150px;
+                }
+                &__thord{
+                    padding-left: 150px;
+                }
+            }
+            &-two{
+                // height: 100px;
+                width: 100%;
+                &__first{
+                    padding-left: 150px;
+                }
+                &__second{
+                    padding-left: 150px;
+                }
+                &__thord{
+                    padding-left: 150px;
+                }
+            }
+        }
+    }
+
+    .container-promotion{
+        position: relative;
+        top: 320px;
+        width: 100%;
+    }
+
+    .home{
+        margin-top: 340px;
+        &-box{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            // position: relative;
+            &_one{
+                &-img{
+                    width: 100%;
+                    height: 250px;
+                }
+                &-btn{
+                    position: relative;
+                    bottom: 75px;
+                }
+                &-nrm{
+                    position: relative;
+                    bottom: 45px;
+                }
+            }
+
+            &_two{
+                &-img{
+                    width: 100%;
+                    height: 250px;
+                }
+            }
+
+            &_three{
+                &-img{
+                    width: 100%;
+                    height: 250px;
+                    position: relative;
+                    top: 90px;
+                }
+                &-btn{
+                    position: relative;
+                    top: 15px;
+                }
+                &-nrm{
+                    position: relative;
+                    top: 15px;
+                }
+            }
+
+            &_five{
+                &-img{
+                    width: 100%;
+                    height: 250px;
+                    position: relative;
+                    top: 180px;
+                }
+                &-btn{
+                    position: relative;
+                    top: 105px;
+                }
+                &-nrm{
+                    position: relative;
+                    top: 105px;
+                }
+            }
+
+            &_six{
+                &-img{
+                    width: 100%;
+                    height: 250px;
+                    position: relative;
+                    top: 270px;
+                }
+                &-btn{
+                    position: relative;
+                    top: 195px;
+                }
+                &-nrm{
+                    position: relative;
+                    top: 195px;
+                }
+            }
+        }
+    }
+
+    .container__review{
+        display: none;
+    }
+
+    .sales{
+        margin-top: 1080px;
+        height: 100px;
+    }
+
+    .brend{
+        margin-top: 50px;
+        &-blok{
+            &_one{
+                &-box{
+                    width: 170px;
+                    height: 60px;
+                }
+            }
+            &_two{
+                &-box{
+                    width: 170px;
+                    height: 60px; 
+                }
+            }
+            &_th{
+                &-box{
+                    width: 170px;
+                    height: 114px;  
+                }
+            }
+        }
+    }
+
+    .block{
+        margin-top: 50px;
+        position: relative;
+        right: 50px;
+       
+        &-img{  
+            width: 100%; 
+            padding-right: 50px;
+            &_pic{
+                height: 340px;
+                position: relative;
+                right: 140px; 
+            }
+         }
+         &-inf{
+            width: 100%;
+            position: relative;
+            top: -50px;
+            // right: 50px;
+            &_cap{
+                
+            }
+            &_smll{   
+
+            }
+        }
+    }
+
+    .footer{
+        &__contact{
+            display: flex;
+            flex-direction: column;
+            &-adress{
+                
+            }
+            &-three{
+                position: relative;
+                left: 0;
+                top: 45px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 567px){
+
+}

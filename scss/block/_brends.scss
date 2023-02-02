@@ -17,10 +17,12 @@
     &-blok{
         height: 450px;
         margin-top: 50px;
+   
         &_one{
+            margin-top: 10px;
             display: flex;
-            justify-content: space-between;
-            gap: 5px;
+            justify-content: center;
+            gap: 10px;
             &-box{
                 width: 200px;
                 height: 132px;
@@ -31,7 +33,7 @@
         &_two{
             margin-top: 10px;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             gap: 10px;
             &-box{
                 width: 200px;
@@ -43,7 +45,7 @@
         &_th{
             margin-top: 10px;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             gap: 10px;
             &-box{
                 width: 200px;
