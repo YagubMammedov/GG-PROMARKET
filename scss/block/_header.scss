@@ -62,12 +62,19 @@
     }
     &-btns{
        display: flex;
-       justify-content: space-between;
-       align-items: center;
+       align-items: flex-start;
+        &__icons{
+            &-media{
+                display: none;
+            }
+        }
         &__navbar{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        a{
+            color: white;
+        }
         &-one{
             background: #004C93;
             width: 300px;
@@ -81,7 +88,6 @@
             letter-spacing: 0.15em;
             padding-top: 18px;
             padding-left: 25px;
-            cursor: pointer;
         }
         &-pic{
             padding-right: 10px;
@@ -102,7 +108,6 @@
             letter-spacing: 0.15em;
             padding-top: 20px;
             padding-left: 35px;
-            cursor: pointer;
         }
         &-three{
             width: 150px;
@@ -117,7 +122,6 @@
             letter-spacing: 0.15em;
             padding-top: 20px;
             padding-left: 30px;
-            cursor: pointer;
         }
         }
         &__form{

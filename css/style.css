@@ -417,13 +417,18 @@ body {
 }
 .header-btns {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+}
+.header-btns__icons-media {
+  display: none;
 }
 .header-btns__navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.header-btns__navbar a {
+  color: white;
 }
 .header-btns__navbar-one {
   background: #004C93;
@@ -438,7 +443,6 @@ body {
   letter-spacing: 0.15em;
   padding-top: 18px;
   padding-left: 25px;
-  cursor: pointer;
 }
 .header-btns__navbar-pic {
   padding-right: 10px;
@@ -459,7 +463,6 @@ body {
   letter-spacing: 0.15em;
   padding-top: 20px;
   padding-left: 35px;
-  cursor: pointer;
 }
 .header-btns__navbar-three {
   width: 150px;
@@ -474,7 +477,6 @@ body {
   letter-spacing: 0.15em;
   padding-top: 20px;
   padding-left: 30px;
-  cursor: pointer;
 }
 .header-btns__form {
   background: #FFFFFF;
@@ -1746,9 +1748,6 @@ body {
     font-weight: 500;
     font-size: 14px;
   }
-  .header-btns {
-    position: relative;
-  }
   .header-btns__navbar-one {
     width: 210px;
     font-size: 10px;
@@ -2105,28 +2104,68 @@ body {
   .header-btns {
     display: flex;
     flex-direction: column;
-    position: relative;
-    width: 100%;
-    right: 110px;
-  }
-  .header-btns__navbar {
-    position: relative;
-    margin-left: 5px;
+    gap: 20px;
   }
   .header-btns__icons {
-    position: relative;
-    bottom: 120px;
-    left: 230px;
-    width: 120px;
+    width: 100%;
+  }
+  .header-btns__icons-media {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-btns__icons-media-one {
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    padding-left: 15px;
+    background: #F1F8FF;
+    padding: 17px 15px;
+  }
+  .header-btns__icons-media-one-pic {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-btns__icons-media-one-pic-circle {
+    display: none;
+  }
+  .header-btns__icons-media-one-shop {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-btns__icons-media-one-shop-circle {
+    display: none;
+  }
+  .header-btns__icons-media img {
+    cursor: pointer;
+  }
+  .header-btns__navbar {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .header-btns__navbar-one {
+    width: 100%;
+    font-size: 10px;
+    padding-bottom: 3px;
+  }
+  .header-btns__navbar-pic {
+    height: 10px;
+  }
+  .header-btns__navbar-two {
+    width: 100%;
+    font-size: 9px;
+    text-align: center;
+  }
+  .header-btns__navbar-three {
+    width: 100%;
+    font-size: 9px;
+    text-align: center;
+  }
+  .header-btns__icons {
+    display: none;
   }
   .header-btns__form {
-    position: relative;
     width: 100%;
-    margin-left: 215px;
   }
   .header-btns__form-loops {
     cursor: pointer;
@@ -2135,11 +2174,10 @@ body {
     top: 18px;
   }
   .header-btns__form-search {
-    padding: 20px 0 20px 0;
+    width: 100%;
   }
   .swiper {
-    position: relative;
-    bottom: 74px;
+    margin-bottom: 25px;
     width: 100%;
     height: 300px;
   }
@@ -2148,20 +2186,20 @@ body {
     position: relative;
     right: 70px;
   }
-  .swiper-button {
-    position: relative;
-  }
   .swiper-button-next {
     padding-right: 60px;
+    padding-top: 150px;
+  }
+  .swiper-button-prev {
+    padding-top: 150px;
   }
   .container {
     display: flex;
     flex-direction: column;
   }
   .container-header {
-    margin-bottom: 150px;
     position: relative;
-    bottom: 74px;
+    bottom: 25px;
   }
   .container-header-one {
     width: 100%;
@@ -2307,5 +2345,43 @@ body {
     position: relative;
     left: 0;
     top: 45px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .header-btns__navbar-one {
+    font-size: 7px;
+  }
+  .brend-blok {
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  }
+  .brend-blok_one {
+    margin-left: 200px;
+  }
+  .brend-blok_one-box {
+    height: 60px;
+  }
+  .brend-blok_two {
+    margin-right: 200px;
+  }
+  .brend-blok_two-box {
+    height: 60px;
+  }
+  .brend-blok_th {
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+    position: relative;
+    left: 200px;
+    margin-bottom: 30px;
+  }
+  .brend-blok_th-box {
+    height: 114px;
+  }
+  .block {
+    margin-top: 450px;
+    width: 100%;
+  }
+  .footer {
+    margin-top: 250px;
   }
 }/*# sourceMappingURL=style.css.map */

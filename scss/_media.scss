@@ -1,90 +1,102 @@
-@media screen and (max-width: 1200px){
-    .header{
-        &-menu{
-            &-logo{
-                &__gg{
-                    font-size: 35px ;
+@media screen and (max-width: 1200px) {
+    .header {
+        &-menu {
+            &-logo {
+                &__gg {
+                    font-size: 35px;
                 }
-                &__img{
+
+                &__img {
                     font-size: 18px;
                     position: relative;
                     top: 2px;
                 }
             }
-            // &-loca{
-            //     position: relative;
-            //     left: 50px;
-            // }
-            &-location{
+
+            &-location {
                 position: relative;
                 left: -50px;
             }
-            &-number{
-                &__one{
+
+            &-number {
+                &__one {
                     color: black;
                     font-size: 16px;
                     position: relative;
                     right: 10px;
-                } 
-                &__symbol{
+                }
+
+                &__symbol {
                     display: none;
                 }
-                &__two{
+
+                &__two {
                     display: none;
-                } 
+                }
             }
-            &-navbar{
+
+            &-navbar {
                 font-weight: 500;
                 font-size: 14px;
             }
         }
-        &-btns{
-            position: relative;
-            &__navbar{
-                &-one{
+
+        &-btns {
+           
+            &__navbar {
+                &-one {
                     width: 210px;
                     font-size: 10px;
                     padding-bottom: 3px;
                 }
-                &-pic{
+
+                &-pic {
                     font-size: 15px;
                 }
-                &-two{
-                width: 100px;
-                font-size: 9px; 
-             }
-                &-three{
+
+                &-two {
                     width: 100px;
-                    font-size: 9px; 
+                    font-size: 9px;
+                }
+
+                &-three {
+                    width: 100px;
+                    font-size: 9px;
                 }
             }
-            &__form{
+
+            &__form {
                 width: 100%;
             }
-            &__icons{
-                &-one{
-                    &-person{
+
+            &__icons {
+                &-one {
+                    &-person {
                         width: 20px;
-                        height: 20px; 
+                        height: 20px;
                         position: relative;
-                        top: 7px; 
+                        top: 7px;
                     }
-                    &-pic{
-                        &-circle{
-                        display: none;
+
+                    &-pic {
+                        &-circle {
+                            display: none;
                         }
-                        &-heart{
+
+                        &-heart {
                             width: 20px;
                             height: 20px;
                             position: relative;
                             top: 7px;
                         }
                     }
-                    &-shop{
-                        &-circle{
+
+                    &-shop {
+                        &-circle {
                             display: none;
                         }
-                        &-basket{
+
+                        &-basket {
                             position: relative;
                             top: 6px;
                             width: 24px;
@@ -93,71 +105,79 @@
                     }
                 }
             }
-        } 
+        }
     }
-    
+
     .swiper {
         width: 1100px;
         height: 380px;
         position: relative;
         right: 0;
-      
-        &-slide{
-          font-size: 18px;
-          width: 100%;
-          &__one{
-           padding-right: 180px;
-           font-size: 20px;
-         }
+
+        &-slide {
+            font-size: 18px;
+            width: 100%;
+
+            &__one {
+                padding-right: 180px;
+                font-size: 20px;
+            }
         }
 
-        &-button{
-            &-next{
+        &-button {
+            &-next {
                 padding-right: 320px;
-                            
-             }
+
+            }
         }
 
     }
-    
-    .container{
-        &-header{
-            &-one{
+
+    .container {
+        &-header {
+            &-one {
                 width: 260px;
-                &__first{
+
+                &__first {
                     font-weight: 300;
                     font-size: 20px;
                     position: relative;
                     right: 125px;
                 }
-                &__second{
+
+                &__second {
                     font-weight: 300;
                     font-size: 17px;
                     position: relative;
                     right: 125px;
                 }
-                &__thord{
+
+                &__thord {
                     font-weight: 300;
                     font-size: 20px;
                     position: relative;
                     right: 125px;
                 }
             }
-            &-two{
+
+            &-two {
                 width: 260px;
-                &__first{
+
+                &__first {
                     font-weight: 300;
                     font-size: 20px;
                     position: relative;
                     right: 125px;
                 }
-                &__second{
+
+                &__second {
                     font-weight: 300;
                     font-size: 15px;
                     position: relative;
                     right: 125px;
                 }
-                &__thord{
+
+                &__thord {
                     font-weight: 300;
                     font-size: 20px;
                     position: relative;
@@ -167,32 +187,37 @@
         }
     }
 
-    .home{
-        &-box{
+    .home {
+        &-box {
             margin-left: 25px;
-            &_one{
-                &-img{
-                 width: 450px;
+
+            &_one {
+                &-img {
+                    width: 450px;
                 }
-                }
-            &_two{
-                &-img{
+            }
+
+            &_two {
+                &-img {
                     width: 300px;
-                    }
                 }
-            &_three{
-                &-img{
+            }
+
+            &_three {
+                &-img {
                     width: 170px;
                     margin-right: 105px;
                 }
             }
-            &_five{
-                &-img{
+
+            &_five {
+                &-img {
                     width: 170px;
-                    }
                 }
-            &_six{
-                &-img{
+            }
+
+            &_six {
+                &-img {
                     width: 300px;
                     margin-right: 105px;
                 }
@@ -201,66 +226,73 @@
 
     }
 
-    .features{
+    .features {
         display: none;
     }
 
-    .review{
+    .review {
         display: none;
     }
-    
-    .brend{
-        &-blok{
+
+    .brend {
+        &-blok {
             height: 900px;
             display: flex;
             justify-content: center;
             gap: 20px;
-            &_one{
+
+            &_one {
                 display: flex;
                 flex-direction: column;
             }
-            &_two{
+
+            &_two {
                 display: flex;
-                flex-direction: column; 
+                flex-direction: column;
             }
-            &_th{
+
+            &_th {
                 display: flex;
-                flex-direction: column; 
+                flex-direction: column;
             }
         }
     }
 
-    .article{
-        &-box{
+    .article {
+        &-box {
             display: flex;
             justify-content: center;
-            #prevnt{
+
+            #prevnt {
                 display: none;
             }
-            #imgnt{
+
+            #imgnt {
                 display: none;
             }
         }
-        
+
     }
 
-    .block{
-        &-img{
-           &_pic{
-            width: 500px;
-            height: 471px;
-           }
+    .block {
+        &-img {
+            &_pic {
+                width: 500px;
+                height: 471px;
+            }
         }
-        &-inf{
-            &_cap{
+
+        &-inf {
+            &_cap {
                 font-size: 15px;
             }
-            &_smll{
+
+            &_smll {
                 font-size: 10px;
                 // position: absolute;
                 // right: 20px;
                 width: 700px;
-                
+
             }
 
         }
@@ -268,87 +300,102 @@
     }
 }
 
-@media screen and (max-width: 991px){
-    .header{
-        &-menu{
-            &-logo{
-                &__gg{
-                    font-size: 20px ;
+@media screen and (max-width: 991px) {
+    .header {
+        &-menu {
+            &-logo {
+                &__gg {
+                    font-size: 20px;
                 }
-                &__pro{
+
+                &__pro {
                     font-size: 11px;
                     position: relative;
                     top: 2px;
                 }
             }
-            &-number{
-                &__one{
+
+            &-number {
+                &__one {
                     color: black;
                     font-size: 11px;
                     position: relative;
                     right: 10px;
-                } 
- 
+                }
+
             }
-            &--location{
+
+            &--location {
                 display: flex;
                 gap: 20px;
                 font-size: 9px;
             }
-            &-navbar{
+
+            &-navbar {
                 font-weight: 500;
                 font-size: 12px;
             }
         }
-        &-btns{
+
+        &-btns {
             position: relative;
-            &__navbar{
-                &-one{
+
+            &__navbar {
+                &-one {
                     width: 190px;
                     font-size: 10px;
                     padding-bottom: 3px;
                 }
-                &-pic{
+
+                &-pic {
                     font-size: 12px;
                 }
-                &-two{
-                width: 75px;
-                font-size: 9px;
-                padding-left: 13px;
-                }
-                &-three{
+
+                &-two {
                     width: 75px;
-                    font-size: 9px; 
+                    font-size: 9px;
+                    padding-left: 13px;
+                }
+
+                &-three {
+                    width: 75px;
+                    font-size: 9px;
                     padding-left: 13px;
                 }
             }
-            &__form{
-                width: 100%;      
+
+            &__form {
+                width: 100%;
             }
-            &__icons{     
-                &-one{
-                    &-person{
+
+            &__icons {
+                &-one {
+                    &-person {
                         width: 20px;
-                        height: 20px; 
+                        height: 20px;
                         position: relative;
-                        top: 7px; 
+                        top: 7px;
                     }
-                    &-pic{
-                        &-circle{
-                        display: none;
+
+                    &-pic {
+                        &-circle {
+                            display: none;
                         }
-                        &-heart{
+
+                        &-heart {
                             width: 20px;
                             height: 20px;
                             position: relative;
                             top: 7px;
                         }
                     }
-                    &-shop{
-                        &-circle{
+
+                    &-shop {
+                        &-circle {
                             display: none;
                         }
-                        &-basket{
+
+                        &-basket {
                             position: relative;
                             top: 6px;
                             width: 24px;
@@ -357,50 +404,57 @@
                     }
                 }
             }
-        } 
+        }
     }
 
     .swiper {
-        &-slide{
-            &__tow{
+        &-slide {
+            &__tow {
                 font-size: 25px;
             }
-            &__three{
+
+            &__three {
                 font-size: 20px;
             }
-            &__btn{
+
+            &__btn {
                 width: 148px;
             }
         }
     }
 
-    .home{
-        &-box{
+    .home {
+        &-box {
             margin-left: 0;
             margin-right: 10px;
-            &_one{
-                &-img{
-                 width: 320px;
+
+            &_one {
+                &-img {
+                    width: 320px;
                 }
-                }
-            &_two{
-                &-img{
+            }
+
+            &_two {
+                &-img {
                     width: 220px;
-                    }
                 }
-            &_three{
-                &-img{
+            }
+
+            &_three {
+                &-img {
                     width: 150px;
                     margin-right: 155px;
                 }
             }
-            &_five{
-                &-img{
+
+            &_five {
+                &-img {
                     width: 150px;
-                    }
                 }
-            &_six{
-                &-img{
+            }
+
+            &_six {
+                &-img {
                     width: 220px;
                     margin-right: 155px;
                 }
@@ -408,61 +462,66 @@
         }
     }
 
-    .container-promotion{
+    .container-promotion {
         display: grid;
         grid-template: repeat(2, 1fr) / repeat(3, 1fr);
         gap: 25px;
     }
 
-    .brend{
-        &-blok{
+    .brend {
+        &-blok {
             height: 700px;
-            &_one{
-                &-box{
+
+            &_one {
+                &-box {
                     width: 180px;
                     height: 100px;
                 }
             }
-            &_two{
-                &-box{
+
+            &_two {
+                &-box {
                     width: 180px;
-                    height: 100px;  
+                    height: 100px;
                 }
             }
-            &_th{
-                &-box{
+
+            &_th {
+                &-box {
                     width: 180px;
-                    height: 114px;  
+                    height: 114px;
                 }
             }
         }
     }
-    
-    .article{
+
+    .article {
         display: none;
-        
+
     }
 
-    .block{
+    .block {
         display: flex;
         flex-direction: column;
         gap: 30px;
         width: 100%;
         height: 640px;
-        &-img{        
-           &_pic{
-            width: 100%;
-            height: 471px;
-            margin-left: 140px;
-           }
+
+        &-img {
+            &_pic {
+                width: 100%;
+                height: 471px;
+                margin-left: 140px;
+            }
         }
-        &-inf{
+
+        &-inf {
             position: relative;
             bottom: 120px;
-            &_cap{
-                
-            }
-            &_smll{
+
+            &_cap {}
+
+            &_smll {
                 padding: 20px 25px;
                 align-items: center;
                 position: relative;
@@ -473,25 +532,29 @@
         }
     }
 
-    .footer{
-        &__navigation{
+    .footer {
+        &__navigation {
             display: grid;
             grid-template: repeat(2, 1fr) / repeat(2, 1fr);
             gap: 25px;
-            &--contact{
-                &_btn{
+
+            &--contact {
+                &_btn {
                     width: 190px;
                 }
             }
         }
-        &__contact{
+
+        &__contact {
             width: 100%;
-            &-adress{
+
+            &-adress {
                 position: absolute;
                 left: 300px;
                 top: 15px;
             }
-            &-three{
+
+            &-three {
                 position: absolute;
                 left: 500px;
             }
@@ -499,212 +562,293 @@
     }
 }
 
-@media screen and (max-width: 767px){
-    .header{
-        &-menu{
-            &-logo{
-                &__gg{
+@media screen and (max-width: 767px) {
+
+
+    .header {
+        &-menu {
+            &-logo {
+                &__gg {
                     font-size: 35px;
                 }
-                &__pro{
+
+                &__pro {
                     font-size: 20px;
                 }
             }
 
-            &-number{
+            &-number {
                 display: none;
             }
 
-            &--location{
+            &--location {
                 display: none;
             }
 
-            &-navbar{
+            &-navbar {
                 display: none;
             }
 
         }
 
-        &-btns{
-                display:flex;
-                flex-direction: column;
-                position: relative;
+        &-btns {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            &__icons {
                 width: 100%;
-                right: 110px;
-                
-            &__navbar{
-                position: relative;
-                margin-left: 5px;
-                &-one{
-                //    position: relative;
+                &-media {
+                    display: block;
+                    display: flex;
+                    justify-content: space-between;
+                    &-one {
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 10px;
+                        background: #F1F8FF;
+                        padding: 17px 15px;
+                        &-pic {
+                            display: flex;
+                            flex-direction: column;
+
+                            &-circle {
+                                display: none;
+                            }
+
+                        }
+
+                        &-shop {
+                            display: flex;
+                            flex-direction: column;
+                            &-circle {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    img{
+                        cursor: pointer;
+                    }
                 }
-            }
-            &__icons{
-                position: relative;
-                bottom: 120px;
-                left: 230px;
-                width: 120px;
-                // width: 100%;
-                display: flex;
-                justify-content: space-between;
-                gap: 10px;
-                padding-left: 15px;
+
+               
             }
 
-            &__form{   
-                position: relative;
-                width: 100%; 
-                margin-left: 215px;
-                &-loops{
+            &__navbar {
+                width: 100%;
+                display: flex;
+                align-items:flex-start;
+                &-one {
+                    width: 100%;
+                    font-size: 10px;
+                    padding-bottom: 3px;
+                }
+
+                &-pic {
+                    height: 10px;
+                }
+
+                &-two {
+                    width: 100%;
+                    font-size: 9px;
+                    text-align: center;
+                }
+
+                &-three {
+                    width: 100%;
+                    font-size: 9px;
+                    text-align: center;
+                }
+            }
+
+            &__icons {
+                // position: relative;
+                // bottom: 120px;
+                // // margin-bottom: 240px;
+                // left: 230px;
+                // width: 120px;
+                // // width: 100%;
+                // display: flex;
+                // justify-content: space-between;
+                // gap: 10px;
+                // padding-left: 15px;
+                display: none;
+            }
+
+            &__form {
+                width: 100%;
+                &-loops {
                     cursor: pointer;
                     position: absolute;
                     right: 10px;
                     top: 18px;
                 }
-                &-search{
-                    padding: 20px 0 20px 0;
+
+                &-search {
+                    // padding: 20px 0 20px 0;
                     // width: 350px;
                     // margin-left: 150px;
-    
+                    width: 100%;
                 }
             }
         }
     }
- 
+
     .swiper {
-        position: relative;
-        bottom: 74px;
+        margin-bottom: 25px;
         width: 100%;
         height: 300px;
-        &-slide{
+
+        &-slide {
             width: 550px;
             position: relative;
             right: 70px;
         }
-        &-button{
-            position: relative;
-            &-next{
+
+        &-button {
+            &-next {
                 padding-right: 60px;
+                padding-top: 150px;
             }
+            &-prev{
+                padding-top: 150px;
+           }
         }
+
+      
     }
 
-    .container{
-            display: flex;
-            flex-direction: column;
-        &-header{
-            margin-bottom: 150px;
+    .container {
+        display: flex;
+        flex-direction: column;
+        &-header {
             position: relative;
-            bottom: 74px;
-            &-one{
+            bottom: 25px;
+            &-one {
                 width: 100%;
-                &__first{
+                &__first {
                     padding-left: 150px;
                 }
-                &__second{
+
+                &__second {
                     padding-left: 150px;
                 }
-                &__thord{
+
+                &__thord {
                     padding-left: 150px;
                 }
             }
-            &-two{
+
+            &-two {
                 // height: 100px;
                 width: 100%;
-                &__first{
+
+                &__first {
                     padding-left: 150px;
                 }
-                &__second{
+
+                &__second {
                     padding-left: 150px;
                 }
-                &__thord{
+
+                &__thord {
                     padding-left: 150px;
                 }
             }
         }
     }
 
-    .container-promotion{
+    .container-promotion {
         position: relative;
         top: 320px;
         width: 100%;
     }
 
-    .home{
+    .home {
         margin-top: 340px;
-        &-box{
+
+        &-box {
             display: flex;
             flex-direction: column;
             gap: 20px;
+
             // position: relative;
-            &_one{
-                &-img{
+            &_one {
+                &-img {
                     width: 100%;
                     height: 250px;
                 }
-                &-btn{
+
+                &-btn {
                     position: relative;
                     bottom: 75px;
                 }
-                &-nrm{
+
+                &-nrm {
                     position: relative;
                     bottom: 45px;
                 }
             }
 
-            &_two{
-                &-img{
+            &_two {
+                &-img {
                     width: 100%;
                     height: 250px;
                 }
             }
 
-            &_three{
-                &-img{
+            &_three {
+                &-img {
                     width: 100%;
                     height: 250px;
                     position: relative;
                     top: 90px;
                 }
-                &-btn{
+
+                &-btn {
                     position: relative;
                     top: 15px;
                 }
-                &-nrm{
+
+                &-nrm {
                     position: relative;
                     top: 15px;
                 }
             }
 
-            &_five{
-                &-img{
+            &_five {
+                &-img {
                     width: 100%;
                     height: 250px;
                     position: relative;
                     top: 180px;
                 }
-                &-btn{
+
+                &-btn {
                     position: relative;
                     top: 105px;
                 }
-                &-nrm{
+
+                &-nrm {
                     position: relative;
                     top: 105px;
                 }
             }
 
-            &_six{
-                &-img{
+            &_six {
+                &-img {
                     width: 100%;
                     height: 250px;
                     position: relative;
                     top: 270px;
                 }
-                &-btn{
+
+                &-btn {
                     position: relative;
                     top: 195px;
                 }
-                &-nrm{
+
+                &-nrm {
                     position: relative;
                     top: 195px;
                 }
@@ -712,75 +856,78 @@
         }
     }
 
-    .container__review{
+    .container__review {
         display: none;
     }
 
-    .sales{
+    .sales {
         margin-top: 1080px;
         height: 100px;
     }
 
-    .brend{
+    .brend {
         margin-top: 50px;
-        &-blok{
-            &_one{
-                &-box{
+
+        &-blok {
+            &_one {
+                &-box {
                     width: 170px;
                     height: 60px;
                 }
             }
-            &_two{
-                &-box{
+
+            &_two {
+                &-box {
                     width: 170px;
-                    height: 60px; 
+                    height: 60px;
                 }
             }
-            &_th{
-                &-box{
+
+            &_th {
+                &-box {
                     width: 170px;
-                    height: 114px;  
+                    height: 114px;
                 }
             }
         }
     }
 
-    .block{
+    .block {
         margin-top: 50px;
         position: relative;
         right: 50px;
-       
-        &-img{  
-            width: 100%; 
+
+        &-img {
+            width: 100%;
             padding-right: 50px;
-            &_pic{
+
+            &_pic {
                 height: 340px;
                 position: relative;
-                right: 140px; 
+                right: 140px;
             }
-         }
-         &-inf{
+        }
+
+        &-inf {
             width: 100%;
             position: relative;
             top: -50px;
-            // right: 50px;
-            &_cap{
-                
-            }
-            &_smll{   
 
-            }
+            // right: 50px;
+            &_cap {}
+
+            &_smll {}
         }
     }
 
-    .footer{
-        &__contact{
+    .footer {
+        &__contact {
             display: flex;
             flex-direction: column;
-            &-adress{
-                
-            }
-            &-three{
+
+            &-adress {}
+
+            &-three {
                 position: relative;
                 left: 0;
                 top: 45px;
@@ -790,6 +937,54 @@
 
 }
 
-@media screen and (max-width: 567px){
+@media screen and (max-width: 567px) {
+    .header {
+        &-btns {
+            &__navbar{
+                &-one {
+                    font-size: 7px; 
+                }
+            }
+        }
+    }
 
+    .brend {
+        &-blok {
+            display: grid;
+            grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+            &_one {
+                margin-left: 200px;
+                &-box {
+                    height: 60px;
+                }
+            }
+
+            &_two {
+                margin-right: 200px;
+                &-box {
+                    height: 60px;
+                }
+            }
+
+            &_th {
+                display: grid;
+                grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+                position: relative;
+                left: 200px;
+                margin-bottom: 30px;
+                &-box {
+                    height: 114px;
+                }
+            }
+        }
+    }
+
+    .block {
+        margin-top: 450px;
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: 250px;
+    }
 }
