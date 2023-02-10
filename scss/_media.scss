@@ -19,7 +19,7 @@
             }
 
             &-number {
-                &__one {
+                &__contact {
                     color: black;
                     font-size: 16px;
                     position: relative;
@@ -30,7 +30,7 @@
                     display: none;
                 }
 
-                &__two {
+                &__call{
                     display: none;
                 }
             }
@@ -44,7 +44,7 @@
         &-btns {
            
             &__navbar {
-                &-one {
+                &-list {
                     width: 210px;
                     font-size: 10px;
                     padding-bottom: 3px;
@@ -54,12 +54,12 @@
                     font-size: 15px;
                 }
 
-                &-two {
+                &-discount {
                     width: 100px;
                     font-size: 9px;
                 }
 
-                &-three {
+                &-brend {
                     width: 100px;
                     font-size: 9px;
                 }
@@ -70,7 +70,7 @@
             }
 
             &__icons {
-                &-one {
+                &-imgs {
                     &-person {
                         width: 20px;
                         height: 20px;
@@ -111,23 +111,14 @@
     .swiper {
         width: 1100px;
         height: 380px;
-        position: relative;
-        right: 0;
 
         &-slide {
             font-size: 18px;
             width: 100%;
 
-            &__one {
+            &__main {
                 padding-right: 180px;
                 font-size: 20px;
-            }
-        }
-
-        &-button {
-            &-next {
-                padding-right: 320px;
-
             }
         }
 
@@ -135,24 +126,24 @@
 
     .container {
         &-header {
-            &-one {
+            &-top {
                 width: 260px;
 
-                &__first {
+                &__product {
                     font-weight: 300;
                     font-size: 20px;
                     position: relative;
                     right: 125px;
                 }
 
-                &__second {
+                &__discount {
                     font-weight: 300;
                     font-size: 17px;
                     position: relative;
                     right: 125px;
                 }
 
-                &__thord {
+                &__more {
                     font-weight: 300;
                     font-size: 20px;
                     position: relative;
@@ -160,24 +151,24 @@
                 }
             }
 
-            &-two {
+            &-bottom {
                 width: 260px;
 
-                &__first {
+                &__product {
                     font-weight: 300;
                     font-size: 20px;
                     position: relative;
                     right: 125px;
                 }
 
-                &__second {
+                &__discount {
                     font-weight: 300;
                     font-size: 15px;
                     position: relative;
                     right: 125px;
                 }
 
-                &__thord {
+                &__more {
                     font-weight: 300;
                     font-size: 20px;
                     position: relative;
@@ -241,17 +232,17 @@
             justify-content: center;
             gap: 20px;
 
-            &_one {
+            &_columb {
                 display: flex;
                 flex-direction: column;
             }
 
-            &_two {
+            &_middle {
                 display: flex;
                 flex-direction: column;
             }
 
-            &_th {
+            &_end {
                 display: flex;
                 flex-direction: column;
             }
@@ -316,7 +307,7 @@
             }
 
             &-number {
-                &__one {
+                &__contact {
                     color: black;
                     font-size: 11px;
                     position: relative;
@@ -341,7 +332,7 @@
             position: relative;
 
             &__navbar {
-                &-one {
+                &-list {
                     width: 190px;
                     font-size: 10px;
                     padding-bottom: 3px;
@@ -351,13 +342,13 @@
                     font-size: 12px;
                 }
 
-                &-two {
+                &-discount {
                     width: 75px;
                     font-size: 9px;
                     padding-left: 13px;
                 }
 
-                &-three {
+                &-brend {
                     width: 75px;
                     font-size: 9px;
                     padding-left: 13px;
@@ -369,7 +360,7 @@
             }
 
             &__icons {
-                &-one {
+                &-imgs {
                     &-person {
                         width: 20px;
                         height: 20px;
@@ -405,15 +396,24 @@
                 }
             }
         }
+        .login-form{  
+        top: 63px;
+        right: -110%;
+        width: 30rem;
+    }
+        .login-form.active{
+            right:0;
+            transition: .4s linear;
+        }
     }
 
     .swiper {
         &-slide {
-            &__tow {
+            &__inf {
                 font-size: 25px;
             }
 
-            &__three {
+            &__stock {
                 font-size: 20px;
             }
 
@@ -472,21 +472,21 @@
         &-blok {
             height: 700px;
 
-            &_one {
+            &_columb {
                 &-box {
                     width: 180px;
                     height: 100px;
                 }
             }
 
-            &_two {
+            &_middle {
                 &-box {
                     width: 180px;
                     height: 100px;
                 }
             }
 
-            &_th {
+            &_end {
                 &-box {
                     width: 180px;
                     height: 114px;
@@ -586,9 +586,39 @@
             }
 
             &-navbar {
-                display: none;
+                position: absolute;
+                top: 95px;
+                right: -140%;
+                width: 350px;
+                border-radius: .5rem;
+                background: #2B7BC6;
+                z-index: 1000;
+                flex-direction: column;
+                margin-right: 30px;
+                align-items: center;
+                a{
+                    font-size: 2rem;
+                    margin: 2rem 2.5rem;
+                    display: block;
+                    color: white;
+                    &:hover{
+                        color: black;
+                    }
+                }
+                
             }
+            #hamburger{
+                display: block;
+                height: 30px;
+                width: 30px;
+                cursor: pointer;
+                margin-top: 8px;
 
+            }
+            &-navbar.active{
+                right: 2rem;
+                transition: .4s linear;
+            }
         }
 
         &-btns {
@@ -601,7 +631,7 @@
                     display: block;
                     display: flex;
                     justify-content: space-between;
-                    &-one {
+                    &-imgs {
                         display: flex;
                         justify-content: space-between;
                         gap: 10px;
@@ -629,32 +659,27 @@
                     img{
                         cursor: pointer;
                     }
-                }
-
-               
+                }      
             }
 
             &__navbar {
                 width: 100%;
-                display: flex;
-                align-items:flex-start;
-                &-one {
+                &-list {
                     width: 100%;
                     font-size: 10px;
-                    padding-bottom: 3px;
                 }
 
                 &-pic {
                     height: 10px;
                 }
 
-                &-two {
+                &-discount {
                     width: 100%;
                     font-size: 9px;
                     text-align: center;
                 }
 
-                &-three {
+                &-brend {
                     width: 100%;
                     font-size: 9px;
                     text-align: center;
@@ -692,29 +717,26 @@
                 }
             }
         }
+
+        .login-form{  
+            top: 63px;
+            right: -110%;
+            width: 30rem;
+        }
+        
+        .login-form.active{
+            right:0;
+            transition: .4s linear;
+        }
     }
 
     .swiper {
-        margin-bottom: 25px;
         width: 100%;
         height: 300px;
 
         &-slide {
-            width: 550px;
-            position: relative;
-            right: 70px;
+            
         }
-
-        &-button {
-            &-next {
-                padding-right: 60px;
-                padding-top: 150px;
-            }
-            &-prev{
-                padding-top: 150px;
-           }
-        }
-
       
     }
 
@@ -722,36 +744,34 @@
         display: flex;
         flex-direction: column;
         &-header {
-            position: relative;
-            bottom: 25px;
-            &-one {
+            &-top {
                 width: 100%;
-                &__first {
+                &__product {
                     padding-left: 150px;
                 }
 
-                &__second {
+                &__discount {
                     padding-left: 150px;
                 }
 
-                &__thord {
+                &__more {
                     padding-left: 150px;
                 }
             }
 
-            &-two {
+            &-bottom {
                 // height: 100px;
                 width: 100%;
 
-                &__first {
+                &__product {
                     padding-left: 150px;
                 }
 
-                &__second {
+                &__discount {
                     padding-left: 150px;
                 }
 
-                &__thord {
+                &__more {
                     padding-left: 150px;
                 }
             }
@@ -869,21 +889,21 @@
         margin-top: 50px;
 
         &-blok {
-            &_one {
+            &_columb {
                 &-box {
                     width: 170px;
                     height: 60px;
                 }
             }
 
-            &_two {
+            &_middle {
                 &-box {
                     width: 170px;
                     height: 60px;
                 }
             }
 
-            &_th {
+            &_end {
                 &-box {
                     width: 170px;
                     height: 114px;
@@ -941,8 +961,8 @@
     .header {
         &-btns {
             &__navbar{
-                &-one {
-                    font-size: 7px; 
+                &-list {
+                    font-size: 8px; 
                 }
             }
         }
@@ -952,21 +972,21 @@
         &-blok {
             display: grid;
             grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-            &_one {
+            &_columb {
                 margin-left: 200px;
                 &-box {
                     height: 60px;
                 }
             }
 
-            &_two {
+            &_middle {
                 margin-right: 200px;
                 &-box {
                     height: 60px;
                 }
             }
 
-            &_th {
+            &_end {
                 display: grid;
                 grid-template: repeat(2, 1fr) / repeat(2, 1fr);
                 position: relative;
@@ -982,6 +1002,9 @@
     .block {
         margin-top: 450px;
         width: 100%;
+        &-img{
+            padding-left: 50px;
+        }
     }
 
     .footer {

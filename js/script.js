@@ -1,6 +1,5 @@
 function sw() {
   const swiper = new Swiper('.swiper', {
-    
     loop: true,
   
     pagination: {
@@ -66,7 +65,48 @@ function sw4() {
   });
 }
 
+function modal() {
+  let loginForm = document.querySelector('.login-form');
+
+  document.querySelector('#login-form').onclick = () =>{
+    loginForm.classList.toggle('active');
+    navbar.classList.remove('active');
+  }
+}
+
+function modalMedia(){
+  let loginForm = document.querySelector('.login-form');
+
+  document.querySelector('#login-forms').onclick = () =>{
+    loginForm.classList.toggle('active');
+    navbar.classList.remove('active');
+  }
+}
+
+function hamburger(){
+  let navbar = document.querySelector('.header-menu-navbar');
+
+  document.querySelector('#hamburger').onclick = () =>{
+    navbar.classList.toggle('active');
+    loginForm.classList.remove('active');
+  }
+}
+
+const swiper = new Swiper('.swiper', {
+  
+});
+
+// window.onscroll = () =>{
+//   searchForm.classList.remove('active');
+//   shoppingCart.classList.remove('active');
+//   loginForm.classList.remove('active');
+//   navbar.classList.remove('active');
+// }
+
 sw()
 sw2()
 sw3()
 sw4()
+modal()
+modalMedia()
+hamburger()

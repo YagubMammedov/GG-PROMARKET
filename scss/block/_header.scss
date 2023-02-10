@@ -1,4 +1,5 @@
 .header{
+    position: relative;
     &-menu{
         display: flex;
         justify-content: space-between;
@@ -37,13 +38,13 @@
         }
 
         &-number{
-            &__one{
+            &__contact{
                 color: black;
                 font-size: 18px;
                 position: relative;
                 right: 10px;
             } 
-            &__two{
+            &__call{
                 border-bottom: 1px dashed #2B7BC6;
                 cursor: pointer;
                 position: relative;
@@ -58,6 +59,13 @@
             display: flex;
             justify-content: space-around;
             gap: 7px;
+            a{
+                color: #2B7BC6;
+            }
+        }
+
+        #hamburger{
+            display: none;
         }
     }
     &-btns{
@@ -75,26 +83,23 @@
         a{
             color: white;
         }
-        &-one{
+        &-list{
             background: #004C93;
             width: 300px;
-            left: 190px;
-            top: 106px;
             height: 60px;
             font-weight: 600;
             font-size: 16px;
             line-height: 20px;
             color: #FBFAF9;
             letter-spacing: 0.15em;
-            padding-top: 18px;
-            padding-left: 25px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
         &-pic{
-            padding-right: 10px;
-            position: relative;
-            top: 3px;
+            padding-left: 5px;
         }
-        &-two{
+        &-discount{
             background: #004C93;
             width: 150px;
             left: 486px;
@@ -109,7 +114,7 @@
             padding-top: 20px;
             padding-left: 35px;
         }
-        &-three{
+        &-brend{
             width: 150px;
             left: 607px;
             top: 106px;
@@ -152,7 +157,7 @@
             height: 60px;
             padding-top: 15px;
 
-            &-one{
+            &-imgs{
                 display: flex;
                 justify-content: space-between;
                 gap: 10px;
@@ -188,7 +193,58 @@
             }
          }
         
-    }   
+    }  
+    
+    .login-form{  
+        z-index: 1000;
+        position: absolute;
+        top: 170px;
+        right: -110%;
+        width: 30rem;
+        padding: 2rem;
+        border-radius: .5rem;
+        background: #2B7BC6;
+        text-align: center;
+        &__cl{
+            font-size: 22px;
+            text-transform: uppercase;
+            color: white;
+        }
+        &__box{
+            margin: 3px;
+            background: #eee;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 16px;
+            color: #000000;
+            text-transform: none;
+            width: 100%;
+        }
+        &__buttone{
+            padding: 10px 30px;
+            border: 1px solid black;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 5px;
+            &:hover{
+                background:#3BB9B8;
+            }
+        }
+        &__pas{
+            font-size: 1.4rem;
+            padding: 2px 5px;
+            color: black;
+            a{
+                text-decoration: underline;
+            }
+        }
+        
+    }
+
+    .login-form.active{
+        right: 50px;
+        transition: .4s linear;
+    }
 }
 
 .swiper {
@@ -197,7 +253,7 @@
   position: relative;
   right: 0;
 
-  &-slide{
+    &-slide{
     right: 0;
     font-size: 18px;
     background: #004C93;
@@ -216,12 +272,12 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    &__one{
+    &__main{
         display: flex;
         flex-direction: column;
         padding-left: 400px;
     }
-    &__tow{
+    &__inf{
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -230,7 +286,7 @@
         line-height:48px;
         width: 290px;
     }
-    &__three{
+    &__stock{
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
@@ -245,49 +301,54 @@
         border-radius: 5px;
         cursor: pointer;
     }
-  }
-  &-pagination{
-    margin-bottom: 120px;
-    // margin-right: 300px;
-    padding-right: 370px;
     }
-  &-button{
-    &-next{
-       padding-right: 430px;
-       padding-top: 66px;
-        
-    }
-  &-prev{
-       padding-left: 70px;
-       padding-top: 66px;
-  }
-  }
+    &-pagination{
+        color: red;
+        // margin-bottom: 120px;
+        // margin-right: 300px;
+        // padding-right: 370px;
+        // margin-bottom: 350px;
+        background-color: #EA1649;
+        z-index: 1000;
+        // width: 50px;
+        }
+    &-button{
+        &-next{
+            // position: absolute;
+            // bottom: 500px;
+            padding-right: 380px;
+        }
+        &-prev{
+            
+        }
+      }
 }
 
 .container{
     display: flex;
     justify-content: space-between;
     margin-top: 14px;
+    position: relative;
     &-header{
         color: #FFFFFF;
-        &-one{
+        &-top{
             background: #1061AB;
             width: 360px;
             height: 190px;
             padding-left: 150px;
             padding-top: 50px;
-            &__first{
+            &__product{
                 font-weight: 700;
                 font-size: 24px;
                 line-height: 36px;
                 letter-spacing: 0.15em;
             }
-            &__second{
+            &__discount{
                 font-weight: 700;
                 font-size: 24px;
                 line-height: 36px;
             }
-            &__thord{
+            &__more{
                 font-weight: 500;
                 font-size: 12px;
                 line-height: 24px;
@@ -295,24 +356,24 @@
             }
       
         }
-        &-two{
+        &-bottom{
             background: #3BB9B8;
             width: 360px;
             height: 190px;
             padding-left: 150px;
             padding-top: 50px;
-            &__first{
+            &__product{
                 font-weight: 700;
                 font-size: 24px;
                 line-height: 36px;
                 letter-spacing: 0.15em;
             }
-            &__second{
+            &__discount{
                 font-weight: 700;
                 font-size: 24px;
                 line-height: 36px;
             }
-            &__thord{
+            &__more{
                 font-weight: 500;
                 font-size: 12px;
                 line-height: 24px;

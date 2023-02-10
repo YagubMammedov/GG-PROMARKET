@@ -10,7 +10,7 @@
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
+  />
 
     <link
     rel="stylesheet"
@@ -40,12 +40,12 @@
                     </div>
                     
                     <p class="header-menu-number">
-                        <span class="header-menu-number__one">
+                        <span class="header-menu-number__contact">
                             +994-55-988-66-57</span>
                         <img 
                         class="header-menu-number__symbol" src="img/call.svg">
                         <span 
-                        class="header-menu-number__two">Заказать звонок</span>
+                        class="header-menu-number__call">Заказать звонок</span>
                     </p>
 
                     <nav class="header-menu-navbar">
@@ -57,54 +57,83 @@
                         <a href="#contact">Контакты</a>
 
                     </nav>
-    
+
+                    <div class="header-menu-hamburger">
+                        <img src="img/hamburgerr.svg" id="hamburger" alt="">
+                    </div>
                 </div>
     
             </header>
     
             <div class="container__main header-btns">
 
+                <form action="" class="login-form">
+
+                    <h3 class="login-form__cl">login now</h3>
+
+                   <input type="email" placeholder="your email"
+                    class="login-form__box">
+
+                   <input type="password" placeholder="your password" 
+                   class="login-form__box">
+
+                   <p class="login-form__pas">forget your password <a 
+                    href="#">click here</a></p>
+
+                   <p class="login-form__pas">do'nt have an account <a 
+                    href="#">create now</a></p>
+
+                   <input type="button" value="Login now" class="login-
+                   form__buttone">
+
+                </form>
+
                 <div class="header-btns__navbar">
 
-                    <p class="header-btns__navbar-one">
+                    <p class="header-btns__navbar-list">
+
                         <img 
                         class="header-btns__navbar-pic" src="img/burger.svg" 
                         alt=""><a href="">КАТАЛОГ ТОВАРОВ </a></p>
-                    <p class="header-btns__navbar-two"><a href="">АКЦИИ</a></p>
+
+                    <p class="header-btns__navbar-discount">
+                        <a href="">АКЦИИ</a></p>
+
                     <p 
-                    class="header-btns__navbar-three"><a href="">БРЕНДЫ</a></p>
+                    class="header-btns__navbar-brend"><a href="">БРЕНДЫ</a></p>
 
                     <div class="header-btns__icons-media">
     
-                        <div class="header-btns__icons-media-one">
+                        <div class="header-btns__icons-media-imgs">
         
                             <img 
-                            class="header-btns__icons-media-one-person" 
+                            class="header-btns__icons-media-imgs-person"       
+                            id="login-forms" 
                             src="img/pic-person-car.svg" alt="" width="23px">
         
-                            <div class="header-btns__icons-media-one-pic">
+                            <div class="header-btns__icons-media-imgs-pic">
         
                                 <img 
-                                class="header-btns__icons-media-one-pic-circle"
+                                class="header-btns__icons-media-imgs-pic-circle"
                                 src="img/yello.svg" 
                                 alt="" width="15px">
                                 
                                 <img 
-                                class="header-btns__icons-media-one-pic-heart" 
+                                class="header-btns__icons-media-imgs-pic-heart" 
                                 src="img/pic-heart.svg" alt="" width="27px">
         
                             </div>
         
                             <div 
-                            class="header-btns__icons-media-one-shop">
+                            class="header-btns__icons-media-imgs-shop">
         
                                 <img 
-                                class="header-btns__icons-media-one-shop-circle" 
+                                class="header-btns__icons-media-imgs-shop-circle" 
                                 src="img/yello.svg" 
                                 alt="" width="15px">
             
                                 <img 
-                                class="header-btns__icons-media-one-shop-basket" 
+                                class="header-btns__icons-media-imgs-shop-basket" 
                                 src="img/pic-shopping cart.svg" alt="" width="29px">
             
                             </div>
@@ -124,29 +153,29 @@
     
                 <div class="header-btns__icons">
     
-                    <div class="header-btns__icons-one">
+                    <div class="header-btns__icons-imgs">
     
                         <img 
-                        class="header-btns__icons-one-person" 
+                        class="header-btns__icons-imgs-person" id="login-form"
                         src="img/pic-person-car.svg" alt="" width="23px">
     
-                        <div class="header-btns__icons-one-pic">
+                        <div class="header-btns__icons-imgs-pic">
     
-                            <img class="header-btns__icons-one-pic-circle"
+                            <img class="header-btns__icons-imgs-pic-circle"
                             src="img/yello.svg" 
                             alt="" width="15px">
-                            <img class="header-btns__icons-one-pic-heart" 
+                            <img class="header-btns__icons-imgs-pic-heart" 
                             src="img/pic-heart.svg" alt="" width="27px">
     
                         </div>
     
-                        <div class="header-btns__icons-one-shop">
+                        <div class="header-btns__icons-imgs-shop">
     
-                            <img class="header-btns__icons-one-shop-circle" 
+                            <img class="header-btns__icons-imgs-shop-circle" 
                             src="img/yello.svg" 
                             alt="" width="15px">
         
-                            <img class="header-btns__icons-one-shop-basket" 
+                            <img class="header-btns__icons-imgs-shop-basket" 
                             src="img/pic-shopping cart.svg" alt="" width="29px">
         
                         </div>
@@ -165,15 +194,18 @@
     
                         <div class="swiper-slide">
     
-                            <div class="swiper-slide__one">
-                                <p class="swiper-slide__tow">
+                            <div class="swiper-slide__main">
+
+                                <p class="swiper-slide__inf">
                                     СМЕСИТЕЛИ RAIBER</p>
-                                <p class="swiper-slide__three">уже в наличии</p>
+                                <p class="swiper-slide__stock">уже в наличии</p>
                                 <button 
                                 class="swiper-slide__btn">ПОДРОБНЕЕ</button>
+
                             </div> 
     
                         </div>
+
                         <div class="swiper-slide">hi</div>
                         <div class="swiper-slide">Slide 3</div>
                         <div class="swiper-slide">Slide 4</div>
@@ -184,16 +216,16 @@
                 </div>
     
                 <div class="container-header">
-                    <div class="container-header-one">
-                        <p class="container-header-one__first">УНИТАЗЫ</p>
-                        <p class="container-header-one__second">ДО 10 000 ₽</p>
-                        <p class="container-header-one__thord">ПОДРОБНЕЕ</p>
+                    <div class="container-header-top">
+                        <p class="container-header-top__product">УНИТАЗЫ</p>
+                        <p class="container-header-top__discount">ДО 10 000 ₽</p>
+                        <p class="container-header-top__more">ПОДРОБНЕЕ</p>
                     </div>
             
-                    <div class="container-header-two">
-                        <p class="container-header-two__first">ТОВАРЫ</p>
-                        <p class="container-header-two__second">СО СКИДКОЙ</p>
-                        <p class="container-header-two__thord">ПОДРОБНЕЕ</p>
+                    <div class="container-header-bottom">
+                        <p class="container-header-bottom__product">ТОВАРЫ</p>
+                        <p class="container-header-bottom__discount">СО СКИДКОЙ</p>
+                        <p class="container-header-bottom__more">ПОДРОБНЕЕ</p>
                     </div>
                 </div>
                 
@@ -765,39 +797,39 @@
 
             <div class="brend-blok">
 
-                <div class="brend-blok_one">
+                <div class="brend-blok_columb">
 
-                    <div class="brend-blok_one-box" >
+                    <div class="brend-blok_columb-box" >
 
                         <img src="img/brend1.svg" height="43px" width="100px">
 
                     </div>
 
-                    <div class="brend-blok_one-box" >
+                    <div class="brend-blok_columb-box" >
 
                         <img src="img/brend2.svg" height="16px" width="100px">
 
                     </div>
 
-                    <div class="brend-blok_one-box" >
+                    <div class="brend-blok_columb-box" >
 
                         <img src="img/brend3.svg" height="15px" width="100px">
 
                     </div>
                     
-                    <div class="brend-blok_one-box" >
+                    <div class="brend-blok_columb-box" >
 
                         <img src="img/brend4.svg" height="23px" width="100px">
 
                     </div>
 
-                    <div class="brend-blok_one-box" >
+                    <div class="brend-blok_columb-box" >
 
                         <img src="img/brend5.svg" height="35px" width="100px">
 
                     </div>
 
-                    <div class="brend-blok_one-box">
+                    <div class="brend-blok_columb-box">
 
                         <img src="img/brend6.svg" height="34px" width="100px">
 
@@ -805,39 +837,39 @@
 
                 </div>
 
-                <div class="brend-blok_two">
+                <div class="brend-blok_middle">
 
-                    <div class="brend-blok_two-box" >
+                    <div class="brend-blok_middle-box" >
 
                         <img src="img/brend7.svg" height="26px" width="100px">
 
                     </div>
 
-                    <div class="brend-blok_two-box" >
+                    <div class="brend-blok_middle-box" >
 
                         <img src="img/brend8.svg" height="27px" width="85px">
 
                     </div>
 
-                    <div class="brend-blok_two-box" >
+                    <div class="brend-blok_middle-box" >
 
                         <img src="img/brend9.svg" height="29px" width="100px">
 
                     </div>
 
-                    <div class="brend-blok_two-box" >
+                    <div class="brend-blok_middle-box" >
 
                         <img src="img/brend10.svg" height="39px" width="100px">
 
                     </div>
 
-                    <div class="brend-blok_two-box" >
+                    <div class="brend-blok_middle-box" >
 
                         <img src="img/brend11.svg" height="40px" width="100px" >
 
                     </div>
 
-                    <div class="brend-blok_two-box" >
+                    <div class="brend-blok_middle-box" >
 
                         <img src="img/brend12.svg" height="26px" width="100px" >
 
@@ -845,38 +877,37 @@
 
                 </div>
 
-                <div class="brend-blok_th">
+                <div class="brend-blok_end">
 
-                    <div class="brend-blok_th-box" >
+                    <div class="brend-blok_end-box" >
 
                         <img src="img/brend13.svg"  width="106px"height="38px">
 
                     </div>
-
                   
-                    <div class="brend-blok_th-box" > 
+                    <div class="brend-blok_end-box" > 
 
                         <img src="img/brend14.svg" width="106px" height="29px" >                                       
                     </div>
                     
-                    <div class="brend-blok_th-box" >
+                    <div class="brend-blok_end-box" >
 
                         <img src="img/brend15.svg" width="106px" height="29px" >            
                     </div>
 
-                    <div class="brend-blok_th-box" > 
+                    <div class="brend-blok_end-box" > 
 
                         <img src="img/brend16.svg" width="106px" height="34px" >
 
                     </div>
 
-                    <div class="brend-blok_th-box" >
+                    <div class="brend-blok_end-box" >
                          
                         <img src="img/brend17.svg" width="106px" height="34px"
 >              
                     </div>
 
-                    <div class="brend-blok_th-box" > 
+                    <div class="brend-blok_end-box" > 
 
                         <img src="img/brend18.svg" width="100px" height="35px" >   
                     </div>
@@ -1104,10 +1135,7 @@
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js">   
-</script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"> 
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     
     <script src="js/script.js"></script>
 

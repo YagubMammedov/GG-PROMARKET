@@ -16,9 +16,8 @@
        }
     &-blok{
         height: 450px;
-        margin-top: 50px;
-   
-        &_one{
+        margin-top: 50px; 
+        &_columb{
             margin-top: 10px;
             display: flex;
             justify-content: center;
@@ -30,7 +29,7 @@
                 padding: 57px 50px;
             }
         }
-        &_two{
+        &_middle{
             margin-top: 10px;
             display: flex;
             justify-content: center;
@@ -42,7 +41,7 @@
                 padding: 57px 50px;
             }
         }
-        &_th{
+        &_end{
             margin-top: 10px;
             display: flex;
             justify-content: center;
